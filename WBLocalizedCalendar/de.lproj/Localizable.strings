@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WBLocalizedCalendar
+
+  Created by Назар Ткаченко on 23.06.2024.
+  
+*/
+
+"Day before yesterday" = "Vorgestern";
+"Yesterday" = "Gestern";
+"Today" = "Heute";
+"Tomorrow" = "Morgen";
+"Day after tomorrow" = "Übermorgen";
