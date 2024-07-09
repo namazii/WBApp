@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCC595DD2C272F3300F053E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC595DC2C272F3300F053E5 /* main.swift */; };
+		BCC595F02C273A1700F053E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC595EF2C273A1700F053E5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BCC595D72C272F3300F053E5 /* CopyFiles */ = {
+		BCC595EA2C273A1700F053E5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BCC595D92C272F3300F053E5 /* WBBank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WBBank; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCC595DC2C272F3300F053E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BCC595EC2C273A1700F053E5 /* WB Fabrica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WB Fabrica"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC595EF2C273A1700F053E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BCC595D62C272F3300F053E5 /* Frameworks */ = {
+		BCC595E92C273A1700F053E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BCC595D02C272F3300F053E5 = {
+		BCC595E32C273A1700F053E5 = {
 			isa = PBXGroup;
 			children = (
-				BCC595DB2C272F3300F053E5 /* WBBank */,
-				BCC595DA2C272F3300F053E5 /* Products */,
+				BCC595EE2C273A1700F053E5 /* WB Fabrica */,
+				BCC595ED2C273A1700F053E5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BCC595DA2C272F3300F053E5 /* Products */ = {
+		BCC595ED2C273A1700F053E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCC595D92C272F3300F053E5 /* WBBank */,
+				BCC595EC2C273A1700F053E5 /* WB Fabrica */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCC595DB2C272F3300F053E5 /* WBBank */ = {
+		BCC595EE2C273A1700F053E5 /* WB Fabrica */ = {
 			isa = PBXGroup;
 			children = (
-				BCC595DC2C272F3300F053E5 /* main.swift */,
+				BCC595EF2C273A1700F053E5 /* main.swift */,
 			);
-			path = WBBank;
+			path = "WB Fabrica";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCC595D82C272F3300F053E5 /* WBBank */ = {
+		BCC595EB2C273A1700F053E5 /* WB Fabrica */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCC595E02C272F3300F053E5 /* Build configuration list for PBXNativeTarget "WBBank" */;
+			buildConfigurationList = BCC595F32C273A1700F053E5 /* Build configuration list for PBXNativeTarget "WB Fabrica" */;
 			buildPhases = (
-				BCC595D52C272F3300F053E5 /* Sources */,
-				BCC595D62C272F3300F053E5 /* Frameworks */,
-				BCC595D72C272F3300F053E5 /* CopyFiles */,
+				BCC595E82C273A1700F053E5 /* Sources */,
+				BCC595E92C273A1700F053E5 /* Frameworks */,
+				BCC595EA2C273A1700F053E5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WBBank;
-			productName = WBBank;
-			productReference = BCC595D92C272F3300F053E5 /* WBBank */;
+			name = "WB Fabrica";
+			productName = "WB Fabrica";
+			productReference = BCC595EC2C273A1700F053E5 /* WB Fabrica */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BCC595D12C272F3300F053E5 /* Project object */ = {
+		BCC595E42C273A1700F053E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					BCC595D82C272F3300F053E5 = {
+					BCC595EB2C273A1700F053E5 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = BCC595D42C272F3300F053E5 /* Build configuration list for PBXProject "WBBank" */;
+			buildConfigurationList = BCC595E72C273A1700F053E5 /* Build configuration list for PBXProject "WB Fabrica" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = BCC595D02C272F3300F053E5;
-			productRefGroup = BCC595DA2C272F3300F053E5 /* Products */;
+			mainGroup = BCC595E32C273A1700F053E5;
+			productRefGroup = BCC595ED2C273A1700F053E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCC595D82C272F3300F053E5 /* WBBank */,
+				BCC595EB2C273A1700F053E5 /* WB Fabrica */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BCC595D52C272F3300F053E5 /* Sources */ = {
+		BCC595E82C273A1700F053E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC595DD2C272F3300F053E5 /* main.swift in Sources */,
+				BCC595F02C273A1700F053E5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BCC595DE2C272F3300F053E5 /* Debug */ = {
+		BCC595F12C273A1700F053E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		BCC595DF2C272F3300F053E5 /* Release */ = {
+		BCC595F22C273A1700F053E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +245,7 @@
 			};
 			name = Release;
 		};
-		BCC595E12C272F3300F053E5 /* Debug */ = {
+		BCC595F42C273A1700F053E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		BCC595E22C272F3300F053E5 /* Release */ = {
+		BCC595F52C273A1700F053E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCC595D42C272F3300F053E5 /* Build configuration list for PBXProject "WBBank" */ = {
+		BCC595E72C273A1700F053E5 /* Build configuration list for PBXProject "WB Fabrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCC595DE2C272F3300F053E5 /* Debug */,
-				BCC595DF2C272F3300F053E5 /* Release */,
+				BCC595F12C273A1700F053E5 /* Debug */,
+				BCC595F22C273A1700F053E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCC595E02C272F3300F053E5 /* Build configuration list for PBXNativeTarget "WBBank" */ = {
+		BCC595F32C273A1700F053E5 /* Build configuration list for PBXNativeTarget "WB Fabrica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCC595E12C272F3300F053E5 /* Debug */,
-				BCC595E22C272F3300F053E5 /* Release */,
+				BCC595F42C273A1700F053E5 /* Debug */,
+				BCC595F52C273A1700F053E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BCC595D12C272F3300F053E5 /* Project object */;
+	rootObject = BCC595E42C273A1700F053E5 /* Project object */;
 }
