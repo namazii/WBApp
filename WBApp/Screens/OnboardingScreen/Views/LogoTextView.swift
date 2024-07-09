@@ -8,15 +8,7 @@
 import SwiftUI
 
 struct LogoTextView: View {
-    
-    // MARK: - Constants
-    private enum Constants {
-        static let spacerFrame: CGFloat = .init(42)
-        static let lineLimit: Int = .init(2)
-        static let padding: CGFloat = .init(20)
-        static let zero: CGFloat = .init(0)
-    }
-    
+     
     // MARK: - Body
     var body: some View {
         VStack {
@@ -34,7 +26,7 @@ struct LogoTextView: View {
             
             Spacer().frame(height: Constants.spacerFrame)
             
-            Text(Texts.OnboardingScreen.mainTitle)
+            Text(LocalizedStringKey("onboardTitle"))
                 .textStyle(with: .heading2)
                 .foregroundStyle(.onboardLogoTitle)
                 .lineLimit(Constants.lineLimit)

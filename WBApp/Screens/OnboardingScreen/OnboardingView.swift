@@ -9,19 +9,19 @@ import SwiftUI
 
 struct OnboardingView: View {
     
-    @State private var showingSheet: Bool = .init(false)
+    @State private var isPresent: Bool = .init(false)
     
     var body: some View {
-        ZStack {
-            Color(.customBackGround)
-                .edgesIgnoringSafeArea(.all)
-            LogoAndButtonsView(
-                userAgreementAction: { print("Пользовательское соглашение") },
-                chatButtonAction: { showingSheet = true }
-            )
-        }
-        .sheet(isPresented: $showingSheet) {
-            ModalView()
+        NavigationStack {
+            ZStack {
+                
+                Color(.customBackGround)
+                    .edgesIgnoringSafeArea(.all)
+                LogoAndButtonsView(isPresent: $isPresent, userAgreementAction: {})
+            }
+            .navigationDestination(isPresented: $isPresent) {
+                VereficationView()
+            }
         }
     }
 }

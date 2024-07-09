@@ -5,23 +5,13 @@
 //  Created by Назар Ткаченко on 05.06.2024.
 //
 
+
 import SwiftUI
 
 struct LogoAndButtonsView: View {
     
-    // MARK: - Constants
-    private enum Constants {
-        static let logoTopPadding: CGFloat = .init(45)
-        static let logoleadingPadding: CGFloat = .init(42)
-        static let logoTrailingPadding: CGFloat = .init(31)
-        static let zero: CGFloat = .init(0)
-        static let leadingPadding: CGFloat = .init(24)
-        static let trailingPadding: CGFloat = .init(24)
-        static let bottomPadding: CGFloat = .init(20)
-    }
-    
+    @Binding var isPresent: Bool
     var userAgreementAction: () -> Void
-    var chatButtonAction: () -> Void
     
     // MARK: - Body
     var body: some View {
@@ -37,21 +27,46 @@ struct LogoAndButtonsView: View {
                 )
             Spacer()
             
-            AgreementAndChatButtonsView(
-                userAgreementButtonPressed: userAgreementAction,
-                chatButtonPressed: chatButtonAction
-            )
-            .padding(
-                EdgeInsets(
-                    top: Constants.zero,
-                    leading: Constants.leadingPadding,
-                    bottom: Constants.bottomPadding,
-                    trailing: Constants.trailingPadding)
-            )
+            AgreementAndChatButtonsView
+                .padding(
+                    EdgeInsets(
+                        top: Constants.zero,
+                        leading: Constants.leadingPadding,
+                        bottom: Constants.bottomPadding,
+                        trailing: Constants.trailingPadding)
+                )
         }
     }
-}
-
-#Preview {
-    LogoAndButtonsView(userAgreementAction: {}, chatButtonAction: {})
+    
+    private var AgreementAndChatButtonsView: some View {
+        VStack {
+            Text(LocalizedStringKey("userAgreement"))
+                .foregroundStyle(.metaDataGray)
+                .textStyle(with: .metaData2)
+                .multilineTextAlignment(.center)
+            HStack {
+                Button(LocalizedStringKey("Политикой Конфиденциальности")) {}
+                    .textStyle(with: .metaData2)
+                    .foregroundColor(.placeHolderAvatar)
+                
+                Text("и")
+                    .foregroundStyle(.metaDataGray)
+                    .textStyle(with: .metaData2)
+                    .multilineTextAlignment(.center)
+                
+                Button(LocalizedStringKey("Условиями Использования")) {}
+                    .textStyle(with: .metaData2)
+                    .foregroundColor(.placeHolderAvatar)
+                
+            }
+            .padding(.bottom, 13)
+            
+            Button(action: {
+                isPresent.toggle()
+            }) {
+                Text(LocalizedStringKey("startChat"))
+            }
+            .buttonStyle(CustomFillButtonStyle())
+        }
+    }
 }

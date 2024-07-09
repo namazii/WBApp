@@ -24,7 +24,7 @@ struct CustomFillButtonStyle: ButtonStyle {
     
     // MARK: - init
     init(foregroundColor: Color = Color(.onboardStartButtonTitle),
-         backgroundColor: Color = Color(.purpleButton),
+         backgroundColor: Color = Color(.brandColorButton),
          typography: Typography? = nil,
          cornerRadiusSize: CGFloat = Constants.cornerRadiusSize
     ) {
@@ -49,10 +49,10 @@ struct CustomFillButtonStyle: ButtonStyle {
             configuration
                 .label
                 .frame(maxWidth: .infinity)
-                .foregroundStyle(isEnabled ? fstColor : .white)
+                .foregroundStyle(isEnabled ? fstColor : .disabledButtonFont)
                 .textStyle(with: typography != nil ? typography! : .subHeading2)
                 .padding(.vertical)
-                .background(secColor)
+                .background(isEnabled ? secColor : .disabledButtonBack)
                 .cornerRadius(cornerRadiusSize)
                 .scaleEffect(configuration.isPressed ? 0.9 : 1)
         }
@@ -68,7 +68,8 @@ fileprivate struct TestPreviewPurpleButton: View {
         } label: {
             Text("Начать общаться")
         }
-        .buttonStyle(CustomFillButtonStyle() )
+        .buttonStyle(CustomFillButtonStyle())
+//        .disabled(true)
     }
 }
 
