@@ -1,0 +1,153 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "000 000-00-00" : {
+
+    },
+    "contacts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контакты"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контакты"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dismiss"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dismiss"
+          }
+        }
+      }
+    },
+    "Last seen %@" : {
+
+    },
+    "Loading..." : {
+
+    },
+    "onboardTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общайтесь с друзьями \n и близкими легко"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общайтесь с друзьями \n и близкими легко"
+          }
+        }
+      }
+    },
+    "Online" : {
+
+    },
+    "search" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        }
+      }
+    },
+    "startChat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать общаться"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать общаться"
+          }
+        }
+      }
+    },
+    "userAgreement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажимая кнопку продолжить я соглашаюсь с "
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажимая кнопку продолжить я соглашаюсь с "
+          }
+        }
+      }
+    },
+    "Введите номер телефона" : {
+
+    },
+    "Другие" : {
+
+    },
+    "и" : {
+
+    },
+    "Мы вышлем код подтверждения \n на указанный номер" : {
+
+    },
+    "Начать общаться" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать общаться"
+          }
+        }
+      }
+    },
+    "Политикой Конфиденциальности" : {
+
+    },
+    "Продолжить" : {
+
+    },
+    "Условиями Использования" : {
+
+    },
+    "Чаты" : {
+
+    }
+  },
+  "version" : "1.0"
+}
