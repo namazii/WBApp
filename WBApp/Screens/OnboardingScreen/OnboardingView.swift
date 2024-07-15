@@ -8,20 +8,15 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    
-    @State private var isPresent: Bool = .init(false)
+    @EnvironmentObject var router: Router
     
     var body: some View {
-        NavigationStack {
-            ZStack {
-                
-                Color(.customBackGround)
-                    .edgesIgnoringSafeArea(.all)
-                LogoAndButtonsView(isPresent: $isPresent, userAgreementAction: {})
-            }
-            .navigationDestination(isPresented: $isPresent) {
-                VereficationView()
-            }
+        ZStack {
+            Color(.customBackGround)
+                .edgesIgnoringSafeArea(.all)
+            LogoAndButtonsView(buttonAction: {
+                router.navigate(to: .vereficationScreen)
+            }, userAgreementAction: {})
         }
     }
 }

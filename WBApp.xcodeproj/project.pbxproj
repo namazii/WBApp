@@ -25,6 +25,13 @@
 		BC6B010D2C3826E90087FDEA /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */; };
 		BC6B01112C38271A0087FDEA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01102C38271A0087FDEA /* SearchBar.swift */; };
 		BC6B01152C3832A40087FDEA /* LocalizedStrings+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01142C3832A40087FDEA /* LocalizedStrings+.swift */; };
+		BC74E9F52C3EC6CE0033C842 /* InputSMSCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9F42C3EC6CE0033C842 /* InputSMSCodeScreen.swift */; };
+		BC74E9F82C3EC7A80033C842 /* smsCodeComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9F72C3EC7A80033C842 /* smsCodeComponentView.swift */; };
+		BC74E9FA2C3EC8670033C842 /* smsCodeTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9F92C3EC8670033C842 /* smsCodeTitlesView.swift */; };
+		BC74E9FD2C40031B0033C842 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9FC2C40031B0033C842 /* Router.swift */; };
+		BC74EA022C415C160033C842 /* RetrySendCodeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74EA012C415C160033C842 /* RetrySendCodeTimer.swift */; };
+		BC74EA092C45253D0033C842 /* CustomOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74EA082C45253D0033C842 /* CustomOperations.swift */; };
+		BC74EA0B2C4536710033C842 /* SMSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74EA0A2C4536710033C842 /* SMSCodeGenerator.swift */; };
 		BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190322C10A3FA00546D07 /* WBAppApp.swift */; };
 		BCA190352C10A3FA00546D07 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190342C10A3FA00546D07 /* OnboardingView.swift */; };
 		BCA1903A2C10A3FB00546D07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA190392C10A3FB00546D07 /* Preview Assets.xcassets */; };
@@ -40,7 +47,7 @@
 		BCE00CC82C3C1EA800527D87 /* PopOverCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC72C3C1EA800527D87 /* PopOverCountryPicker.swift */; };
 		BCE00CCA2C3C74B100527D87 /* UIApplication+EditingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC92C3C74B100527D87 /* UIApplication+EditingMode.swift */; };
 		BCE00CCC2C3D298000527D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE00CCB2C3D298000527D87 /* Assets.xcassets */; };
-		BCE00CCE2C3D2EC400527D87 /* CustomFillButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CCD2C3D2EC400527D87 /* CustomFillButtonStyle.swift */; };
+		BCE00CCE2C3D2EC400527D87 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +69,13 @@
 		BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
 		BC6B01102C38271A0087FDEA /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		BC6B01142C3832A40087FDEA /* LocalizedStrings+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizedStrings+.swift"; sourceTree = "<group>"; };
+		BC74E9F42C3EC6CE0033C842 /* InputSMSCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSMSCodeScreen.swift; sourceTree = "<group>"; };
+		BC74E9F72C3EC7A80033C842 /* smsCodeComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smsCodeComponentView.swift; sourceTree = "<group>"; };
+		BC74E9F92C3EC8670033C842 /* smsCodeTitlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smsCodeTitlesView.swift; sourceTree = "<group>"; };
+		BC74E9FC2C40031B0033C842 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BC74EA012C415C160033C842 /* RetrySendCodeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrySendCodeTimer.swift; sourceTree = "<group>"; };
+		BC74EA082C45253D0033C842 /* CustomOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperations.swift; sourceTree = "<group>"; };
+		BC74EA0A2C4536710033C842 /* SMSCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeGenerator.swift; sourceTree = "<group>"; };
 		BCA1902F2C10A3FA00546D07 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA190322C10A3FA00546D07 /* WBAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppApp.swift; sourceTree = "<group>"; };
 		BCA190342C10A3FA00546D07 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -78,7 +92,7 @@
 		BCE00CC72C3C1EA800527D87 /* PopOverCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCountryPicker.swift; sourceTree = "<group>"; };
 		BCE00CC92C3C74B100527D87 /* UIApplication+EditingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+EditingMode.swift"; sourceTree = "<group>"; };
 		BCE00CCB2C3D298000527D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WBApp/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		BCE00CCD2C3D2EC400527D87 /* CustomFillButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFillButtonStyle.swift; sourceTree = "<group>"; };
+		BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +196,49 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		BC74E9F32C3EC68C0033C842 /* InputSMSCodeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC74E9F42C3EC6CE0033C842 /* InputSMSCodeScreen.swift */,
+				BC74E9F62C3EC6D10033C842 /* Views */,
+			);
+			path = InputSMSCodeScreen;
+			sourceTree = "<group>";
+		};
+		BC74E9F62C3EC6D10033C842 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC74E9F92C3EC8670033C842 /* smsCodeTitlesView.swift */,
+				BC74E9F72C3EC7A80033C842 /* smsCodeComponentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC74E9FB2C4002ED0033C842 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BC74E9FC2C40031B0033C842 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BC74EA002C415BD10033C842 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC74EA012C415C160033C842 /* RetrySendCodeTimer.swift */,
+				BC74EA0A2C4536710033C842 /* SMSCodeGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC74EA072C45250B0033C842 /* CustomOperators */ = {
+			isa = PBXGroup;
+			children = (
+				BC74EA082C45253D0033C842 /* CustomOperations.swift */,
+			);
+			path = CustomOperators;
+			sourceTree = "<group>";
+		};
 		BCA190262C10A3FA00546D07 = {
 			isa = PBXGroup;
 			children = (
@@ -202,9 +259,12 @@
 			isa = PBXGroup;
 			children = (
 				BCA190402C10A40400546D07 /* Core */,
+				BC74E9FB2C4002ED0033C842 /* Router */,
 				BCA190412C10A41200546D07 /* Screens */,
+				BC74EA002C415BD10033C842 /* Services */,
 				BC6B01032C3825910087FDEA /* Models */,
 				BC6B01002C38256E0087FDEA /* FadeTransition */,
+				BC74EA072C45250B0033C842 /* CustomOperators */,
 				BC6B01132C3832660087FDEA /* Extensions */,
 				BCA190492C10C9D900546D07 /* Resources */,
 				BCA190382C10A3FB00546D07 /* Preview Content */,
@@ -233,6 +293,7 @@
 			children = (
 				BCA190422C10AA5700546D07 /* OnboardingScreen */,
 				BCE00CBB2C384FAA00527D87 /* VereficationScreen */,
+				BC74E9F32C3EC68C0033C842 /* InputSMSCodeScreen */,
 				BCA190502C10FFFD00546D07 /* ModalView */,
 				BC6B00F12C3824F60087FDEA /* TabBarScreen */,
 				BC6B00F42C3825190087FDEA /* ContactsScreen */,
@@ -301,7 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */,
-				BCE00CCD2C3D2EC400527D87 /* CustomFillButtonStyle.swift */,
+				BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */,
 			);
 			path = ButtonsStyles;
 			sourceTree = "<group>";
@@ -397,23 +458,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE00CCE2C3D2EC400527D87 /* CustomFillButtonStyle.swift in Sources */,
+				BCE00CCE2C3D2EC400527D87 /* CustomButtonStyle.swift in Sources */,
 				BCE00CC12C386F0900527D87 /* FlagNames.swift in Sources */,
 				BCA190352C10A3FA00546D07 /* OnboardingView.swift in Sources */,
 				BC6B01022C38257C0087FDEA /* FadeModifier.swift in Sources */,
 				BC6B00FB2C38255F0087FDEA /* ContactCellView.swift in Sources */,
 				BC6B00EF2C3824DE0087FDEA /* ProfileAccountComponents.swift in Sources */,
 				BC6B00F32C3825020087FDEA /* TabBarView.swift in Sources */,
+				BC74EA022C415C160033C842 /* RetrySendCodeTimer.swift in Sources */,
 				BC6B01112C38271A0087FDEA /* SearchBar.swift in Sources */,
 				BC6B010A2C3826D90087FDEA /* HeaderTitleView.swift in Sources */,
 				BCA1904D2C10F4EB00546D07 /* LogoAndButtonsView.swift in Sources */,
 				BCA190452C10AE4000546D07 /* LogoTextView.swift in Sources */,
+				BC74EA092C45253D0033C842 /* CustomOperations.swift in Sources */,
 				BCA190522C11001B00546D07 /* ModalView.swift in Sources */,
 				BCE00CBF2C385CB300527D87 /* Region.swift in Sources */,
 				BC6B01152C3832A40087FDEA /* LocalizedStrings+.swift in Sources */,
 				BC6B010D2C3826E90087FDEA /* SocialMediaButton.swift in Sources */,
+				BC74E9F82C3EC7A80033C842 /* smsCodeComponentView.swift in Sources */,
+				BC74E9FA2C3EC8670033C842 /* smsCodeTitlesView.swift in Sources */,
+				BC74E9FD2C40031B0033C842 /* Router.swift in Sources */,
 				BC6B00FD2C38255F0087FDEA /* AvatarStub.swift in Sources */,
 				BC6B00E02C36DE860087FDEA /* Constants.swift in Sources */,
+				BC74E9F52C3EC6CE0033C842 /* InputSMSCodeScreen.swift in Sources */,
 				BC6B00EE2C3824DE0087FDEA /* ProfileAccauntView.swift in Sources */,
 				BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */,
 				BC6B01092C3826D90087FDEA /* BackButtonNavBar.swift in Sources */,
@@ -423,6 +490,7 @@
 				BCE00CC42C3C187000527D87 /* VereficationTitleView.swift in Sources */,
 				BC6B00F02C3824DE0087FDEA /* ProfileAvatar.swift in Sources */,
 				BC6B00FF2C38255F0087FDEA /* ContactsView.swift in Sources */,
+				BC74EA0B2C4536710033C842 /* SMSCodeGenerator.swift in Sources */,
 				BCE00CC62C3C1A6D00527D87 /* PhoneNumberField.swift in Sources */,
 				BCE00CC82C3C1EA800527D87 /* PopOverCountryPicker.swift in Sources */,
 				BCE00CCA2C3C74B100527D87 /* UIApplication+EditingMode.swift in Sources */,
