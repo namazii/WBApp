@@ -22,6 +22,7 @@ struct PopOverCountryPicker: View {
                         Image(country.image)
                         Text(country.regionyCode)
                             .textStyle(with: .bodyText1)
+                            .foregroundColor(.textFields)
                     }
                 }
             }
@@ -32,7 +33,7 @@ struct PopOverCountryPicker: View {
                     .frame(width: 16, height: 16)
                 Text(selectedRegion.regionyCode)
                     .textStyle(with: .bodyText1)
-                    .foregroundColor(.metaDataGray)
+                    .foregroundColor(.textFields)
             }
             .frame(width: 65, height: 36)
             .background(.searchBackGroundCollor)

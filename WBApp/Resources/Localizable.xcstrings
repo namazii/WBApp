@@ -1,8 +1,24 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "000 000-00-00" : {
+    "" : {
 
+    },
+    "000 000-00-00" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "000 000-00-00"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "000 000-00-00"
+          }
+        }
+      }
     },
     "contacts" : {
       "extractionState" : "manual",
@@ -61,7 +77,20 @@
       }
     },
     "Online" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online"
+          }
+        }
+      }
     },
     "search" : {
       "extractionState" : "manual",
@@ -114,20 +143,120 @@
         }
       }
     },
+    "Введите код" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите код"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите код"
+          }
+        }
+      }
+    },
     "Введите номер телефона" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите номер телефона"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите номер телефона"
+          }
+        }
+      }
     },
     "Другие" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другие"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другие"
+          }
+        }
+      }
+    },
+    "Запросить код повторно" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить код повторно"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить код повторно"
+          }
+        }
+      }
+    },
+    "Запросить код повторно через" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить код повторно через"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить код повторно через"
+          }
+        }
+      }
     },
     "и" : {
-
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "и"
+          }
+        }
+      }
     },
     "Мы вышлем код подтверждения \n на указанный номер" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мы вышлем код подтверждения \n на указанный номер"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мы вышлем код подтверждения \n на указанный номер"
+          }
+        }
+      }
     },
     "Начать общаться" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать общаться"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -136,17 +265,85 @@
         }
       }
     },
+    "Отправили код на номер" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправили код на номер"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправили код на номер"
+          }
+        }
+      }
+    },
     "Политикой Конфиденциальности" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политикой Конфиденциальности"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политикой Конфиденциальности"
+          }
+        }
+      }
     },
     "Продолжить" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        }
+      }
     },
     "Условиями Использования" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Условиями Использования"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Условиями Использования"
+          }
+        }
+      }
     },
     "Чаты" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чаты"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чаты"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

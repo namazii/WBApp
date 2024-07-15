@@ -23,9 +23,9 @@ struct PhoneNumberField: View {
             TextField("000 000-00-00", text: $phoneNumber)
                 .keyboardType(.phonePad)
                 .frame(width: 262, height: 36)
-                .background(Color(UIColor.systemGray6))
+                .background(.searchBackGroundCollor)
                 .cornerRadius(4)
-                .foregroundColor(Color.gray)
+                .foregroundColor(.textFields)
                 .textStyle(with: .bodyText1)
                 .onChange(of: phoneNumber) { _, newValue in
                     let rawNumber = newValue.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
@@ -48,8 +48,11 @@ struct PhoneNumberField: View {
                 }
         }
     }
-    
-    private func formatPhoneNumber(_ number: String) -> String {
+}
+
+// MARK: - Private Methods
+private extension PhoneNumberField {
+    func formatPhoneNumber(_ number: String) -> String {
         var result = ""
         let startIndex = number.startIndex
         
@@ -69,5 +72,3 @@ struct PhoneNumberField: View {
         return result
     }
 }
-
-

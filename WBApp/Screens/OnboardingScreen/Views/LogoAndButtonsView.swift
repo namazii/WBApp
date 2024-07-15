@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LogoAndButtonsView: View {
     
-    @Binding var isPresent: Bool
+    var buttonAction: () -> Void
     var userAgreementAction: () -> Void
     
     // MARK: - Body
@@ -62,11 +62,11 @@ struct LogoAndButtonsView: View {
             .padding(.bottom, 13)
             
             Button(action: {
-                isPresent.toggle()
+                buttonAction()
             }) {
                 Text(LocalizedStringKey("startChat"))
             }
-            .buttonStyle(CustomFillButtonStyle())
+            .buttonStyle(CustomButtonStyle())
         }
     }
 }

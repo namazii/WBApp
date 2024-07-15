@@ -20,4 +20,5 @@ enum Constants {
     static let bottomPadding: CGFloat = .init(20)
     static let spacing: CGFloat = .init(18)
     static let cornerRadius: CGFloat = .init(24)
+    static let keyboardPadding: CGFloat = .init(60)
 }
