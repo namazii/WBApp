@@ -83,6 +83,9 @@
 		BCA190442C10AE4000546D07 /* LogoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTextView.swift; sourceTree = "<group>"; };
 		BCA1904C2C10F4EB00546D07 /* LogoAndButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAndButtonsView.swift; sourceTree = "<group>"; };
 		BCA190512C11001B00546D07 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		BCD6E6E72C455A1500D959ED /* HashFunc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HashFunc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BCD6E6E82C455A4F00D959ED /* Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Set.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BCD6E6EA2C455A7A00D959ED /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCDFDA2E2C11E94B00886144 /* TextFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontStyles.swift; sourceTree = "<group>"; };
 		BCE00CBC2C384FD700527D87 /* VereficationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VereficationView.swift; sourceTree = "<group>"; };
 		BCE00CBE2C385CB300527D87 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
@@ -258,6 +261,7 @@
 		BCA190312C10A3FA00546D07 /* WBApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCD6E6E62C4559BD00D959ED /* PlayGroundHomeWork */,
 				BCA190402C10A40400546D07 /* Core */,
 				BC74E9FB2C4002ED0033C842 /* Router */,
 				BCA190412C10A41200546D07 /* Screens */,
@@ -337,6 +341,16 @@
 				BCA190512C11001B00546D07 /* ModalView.swift */,
 			);
 			path = ModalView;
+			sourceTree = "<group>";
+		};
+		BCD6E6E62C4559BD00D959ED /* PlayGroundHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6E6E72C455A1500D959ED /* HashFunc.playground */,
+				BCD6E6E82C455A4F00D959ED /* Set.playground */,
+				BCD6E6EA2C455A7A00D959ED /* Dictionary.playground */,
+			);
+			path = PlayGroundHomeWork;
 			sourceTree = "<group>";
 		};
 		BCDFDA272C11E19400886144 /* UIComponents */ = {
