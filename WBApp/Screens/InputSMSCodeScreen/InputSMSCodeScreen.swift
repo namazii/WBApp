@@ -74,7 +74,7 @@ private extension InputSMSCodeScreen {
     }
     
     var validTimer: some View {
-        Text("\(LocalizedStringKey("Запросить код повторно через"))" + ": " + retrySendCodeTimer.formattedTime)
+        Text("Запросить код повторно через" + ": " + retrySendCodeTimer.formattedTime)
             .foregroundStyle(.metaDataGray)
             .textStyle(with: .metaData2)
     }
