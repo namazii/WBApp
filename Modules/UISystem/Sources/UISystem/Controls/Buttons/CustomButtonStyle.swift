@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-enum ButtonStyleType {
+public enum ButtonStyleType {
     case fill
     case textOnly
 }
 
-struct CustomButtonStyle: ButtonStyle {
+public struct CustomButtonStyle: ButtonStyle {
     //MARK: - Private Properties
     @Environment(\.isEnabled) private var isEnabled
     
@@ -23,27 +23,34 @@ struct CustomButtonStyle: ButtonStyle {
     private let styleType: ButtonStyleType
     
     // MARK: - Constants
-    private enum Constants {
-        static let cornerRadiusSize: CGFloat = .init(30)
-        static let buttonHeight: CGFloat = UIScreen.main.bounds.height * 0.056
+    public enum Constants {
+        public static let cornerRadiusSize: CGFloat = .init(30)
+        public static let buttonHeight: CGFloat = UIScreen.main.bounds.height * 0.056
     }
     
     // MARK: - init
-    init(styleType: ButtonStyleType = .fill,
-         foregroundColor: Color = Color(.onboardStartButtonTitle),
-         backgroundColor: Color = Color(.brandColorButton),
-         typography: Typography? = nil,
-         cornerRadiusSize: CGFloat = Constants.cornerRadiusSize
-    ) {
+    public init(styleType: ButtonStyleType = .fill,
+                foregroundColor: Color = Self.defaultForegroundColor,
+                backgroundColor: Color = Self.defaultBackgroundColor,
+                typography: Typography? = nil,
+                cornerRadiusSize: CGFloat = Constants.cornerRadiusSize) {
         self.styleType = styleType
         self.foregroundColor = foregroundColor
         self.backgroundColor = backgroundColor
         self.typography = typography
         self.cornerRadiusSize = cornerRadiusSize
     }
+
+    public static var defaultForegroundColor: Color {
+        return Color(.onboardStartButtonTitle)
+    }
+
+    public static var defaultBackgroundColor: Color {
+        return Color(.brandColorButton)
+    }
     
     //MARK: - Methods
-    func makeBody(configuration: Configuration) -> some View {
+    public func makeBody(configuration: Configuration) -> some View {
         switch styleType {
         case .fill:
             return AnyView(
@@ -51,10 +58,10 @@ struct CustomButtonStyle: ButtonStyle {
                     configuration
                         .label
                         .frame(maxWidth: .infinity)
-                        .foregroundStyle(isEnabled ? foregroundColor : .disabledButtonFont)
+                        .foregroundStyle(isEnabled ? foregroundColor : Color(.disabledButtonFont))
                         .textStyle(with: typography != nil ? typography! : .subHeading2)
                         .padding(.vertical)
-                        .background(isEnabled ? backgroundColor : .disabledButtonBack)
+                        .background(isEnabled ? backgroundColor : Color(.disabledButtonBack))
                         .cornerRadius(cornerRadiusSize)
                         .scaleEffect(configuration.isPressed ? 0.9 : 1)
                 }
@@ -66,7 +73,7 @@ struct CustomButtonStyle: ButtonStyle {
             return AnyView(
                 configuration
                     .label
-                    .foregroundStyle(isEnabled ? Color(.noFillButton) : .disabledButtonFont)
+                    .foregroundStyle(isEnabled ? Color(.noFillButton) : Color(.disabledButtonFont))
                     .textStyle(with: typography != nil ? typography! : .subHeading2)
                     .scaleEffect(configuration.isPressed ? 0.9 : 1)
                     .animation(.default, value: configuration.isPressed)

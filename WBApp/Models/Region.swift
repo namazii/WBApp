@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Region: Identifiable {
-    let id = UUID()
-    let regionyCode: String
-    let phonePrefix: Int
-    let image: String
+public struct Region: Identifiable {
+    public let id = UUID()
+    public let regionyCode: String
+    public let phonePrefix: Int
+    public let image: String
     
-    static let countries = [
+    public static let countries = [
             Region(regionyCode: "+374", phonePrefix: 8, image: "armeniaFlag"),
             Region(regionyCode: "+994", phonePrefix: 8, image: "azerbaijanFlag"),
             Region(regionyCode: "+375", phonePrefix: 8, image: "belarusFlag"),
