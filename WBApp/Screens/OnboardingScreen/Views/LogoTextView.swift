@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct LogoTextView: View {
      
@@ -28,7 +29,7 @@ struct LogoTextView: View {
             
             Text(LocalizedStringKey("onboardTitle"))
                 .textStyle(with: .heading2)
-                .foregroundStyle(.onboardLogoTitle)
+                .foregroundStyle( .onboardLogoTitle)
                 .lineLimit(Constants.lineLimit)
                 .multilineTextAlignment(.center)
         }

@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct HeaderTitleView: View {
+public struct HeaderTitleView: View {
     @State var headerTitleView: String
     
-    var body: some View {
+    public init(headerTitleView: String) {
+        self.headerTitleView = headerTitleView
+    }
+    
+    public var body: some View {
         Text(headerTitleView)
-            .foregroundStyle(.titles)
+            .foregroundStyle(Color(.titles))
             .textStyle(with: .subHeading1)
     }
 }

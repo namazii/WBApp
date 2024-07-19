@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2628A12C4AA65B004886EF /* PhoneNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2628A02C4AA65B004886EF /* PhoneNumberField.swift */; };
+		BC2628A32C4AA6BA004886EF /* PopOverCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2628A22C4AA6BA004886EF /* PopOverCountryPicker.swift */; };
 		BC6B00E02C36DE860087FDEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B00DF2C36DE860087FDEA /* Constants.swift */; };
 		BC6B00E92C36E1AB0087FDEA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B00E82C36E1AA0087FDEA /* Localizable.xcstrings */; };
 		BC6B00EE2C3824DE0087FDEA /* ProfileAccauntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B00EB2C3824DE0087FDEA /* ProfileAccauntView.swift */; };
@@ -20,10 +22,6 @@
 		BC6B00FF2C38255F0087FDEA /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B00FA2C38255F0087FDEA /* ContactsView.swift */; };
 		BC6B01022C38257C0087FDEA /* FadeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01012C38257C0087FDEA /* FadeModifier.swift */; };
 		BC6B01052C3825A40087FDEA /* UserContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01042C3825A40087FDEA /* UserContact.swift */; };
-		BC6B01092C3826D90087FDEA /* BackButtonNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01072C3826D90087FDEA /* BackButtonNavBar.swift */; };
-		BC6B010A2C3826D90087FDEA /* HeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01082C3826D90087FDEA /* HeaderTitleView.swift */; };
-		BC6B010D2C3826E90087FDEA /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */; };
-		BC6B01112C38271A0087FDEA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01102C38271A0087FDEA /* SearchBar.swift */; };
 		BC6B01152C3832A40087FDEA /* LocalizedStrings+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B01142C3832A40087FDEA /* LocalizedStrings+.swift */; };
 		BC74E9F52C3EC6CE0033C842 /* InputSMSCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9F42C3EC6CE0033C842 /* InputSMSCodeScreen.swift */; };
 		BC74E9F82C3EC7A80033C842 /* smsCodeComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74E9F72C3EC7A80033C842 /* smsCodeComponentView.swift */; };
@@ -38,19 +36,18 @@
 		BCA190452C10AE4000546D07 /* LogoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190442C10AE4000546D07 /* LogoTextView.swift */; };
 		BCA1904D2C10F4EB00546D07 /* LogoAndButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1904C2C10F4EB00546D07 /* LogoAndButtonsView.swift */; };
 		BCA190522C11001B00546D07 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190512C11001B00546D07 /* ModalView.swift */; };
-		BCDFDA2F2C11E94B00886144 /* TextFontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDFDA2E2C11E94B00886144 /* TextFontStyles.swift */; };
 		BCE00CBD2C384FD700527D87 /* VereficationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CBC2C384FD700527D87 /* VereficationView.swift */; };
 		BCE00CBF2C385CB300527D87 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CBE2C385CB300527D87 /* Region.swift */; };
 		BCE00CC12C386F0900527D87 /* FlagNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC02C386F0900527D87 /* FlagNames.swift */; };
 		BCE00CC42C3C187000527D87 /* VereficationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC32C3C187000527D87 /* VereficationTitleView.swift */; };
-		BCE00CC62C3C1A6D00527D87 /* PhoneNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC52C3C1A6D00527D87 /* PhoneNumberField.swift */; };
-		BCE00CC82C3C1EA800527D87 /* PopOverCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC72C3C1EA800527D87 /* PopOverCountryPicker.swift */; };
 		BCE00CCA2C3C74B100527D87 /* UIApplication+EditingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CC92C3C74B100527D87 /* UIApplication+EditingMode.swift */; };
 		BCE00CCC2C3D298000527D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE00CCB2C3D298000527D87 /* Assets.xcassets */; };
-		BCE00CCE2C3D2EC400527D87 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */; };
+		BCF0F8072C494EDA0064704F /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = BCF0F8062C494EDA0064704F /* UISystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2628A02C4AA65B004886EF /* PhoneNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberField.swift; sourceTree = "<group>"; };
+		BC2628A22C4AA6BA004886EF /* PopOverCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCountryPicker.swift; sourceTree = "<group>"; };
 		BC6B00DF2C36DE860087FDEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC6B00E82C36E1AA0087FDEA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		BC6B00EB2C3824DE0087FDEA /* ProfileAccauntView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAccauntView.swift; sourceTree = "<group>"; };
@@ -64,10 +61,6 @@
 		BC6B00FA2C38255F0087FDEA /* ContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		BC6B01012C38257C0087FDEA /* FadeModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeModifier.swift; sourceTree = "<group>"; };
 		BC6B01042C3825A40087FDEA /* UserContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserContact.swift; sourceTree = "<group>"; };
-		BC6B01072C3826D90087FDEA /* BackButtonNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButtonNavBar.swift; sourceTree = "<group>"; };
-		BC6B01082C3826D90087FDEA /* HeaderTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTitleView.swift; sourceTree = "<group>"; };
-		BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
-		BC6B01102C38271A0087FDEA /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		BC6B01142C3832A40087FDEA /* LocalizedStrings+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizedStrings+.swift"; sourceTree = "<group>"; };
 		BC74E9F42C3EC6CE0033C842 /* InputSMSCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSMSCodeScreen.swift; sourceTree = "<group>"; };
 		BC74E9F72C3EC7A80033C842 /* smsCodeComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smsCodeComponentView.swift; sourceTree = "<group>"; };
@@ -86,16 +79,13 @@
 		BCD6E6E72C455A1500D959ED /* HashFunc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HashFunc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCD6E6E82C455A4F00D959ED /* Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Set.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCD6E6EA2C455A7A00D959ED /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BCDFDA2E2C11E94B00886144 /* TextFontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontStyles.swift; sourceTree = "<group>"; };
 		BCE00CBC2C384FD700527D87 /* VereficationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VereficationView.swift; sourceTree = "<group>"; };
 		BCE00CBE2C385CB300527D87 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		BCE00CC02C386F0900527D87 /* FlagNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagNames.swift; sourceTree = "<group>"; };
 		BCE00CC32C3C187000527D87 /* VereficationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VereficationTitleView.swift; sourceTree = "<group>"; };
-		BCE00CC52C3C1A6D00527D87 /* PhoneNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberField.swift; sourceTree = "<group>"; };
-		BCE00CC72C3C1EA800527D87 /* PopOverCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCountryPicker.swift; sourceTree = "<group>"; };
 		BCE00CC92C3C74B100527D87 /* UIApplication+EditingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+EditingMode.swift"; sourceTree = "<group>"; };
 		BCE00CCB2C3D298000527D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WBApp/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		BCF0F8042C469ED80064704F /* UISystem */ = {isa = PBXFileReference; lastKnownFileType = text; name = UISystem; path = Modules/UISystem; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0F8072C494EDA0064704F /* UISystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,27 +155,9 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		BC6B01062C3826C60087FDEA /* NavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				BC6B01072C3826D90087FDEA /* BackButtonNavBar.swift */,
-				BC6B01082C3826D90087FDEA /* HeaderTitleView.swift */,
-			);
-			path = NavigationBar;
-			sourceTree = "<group>";
-		};
-		BC6B010F2C38270A0087FDEA /* SearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				BC6B01102C38271A0087FDEA /* SearchBar.swift */,
-			);
-			path = SearchBar;
-			sourceTree = "<group>";
-		};
 		BC6B01122C38272E0087FDEA /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				BCDFDA2E2C11E94B00886144 /* TextFontStyles.swift */,
 				BCE00CC02C386F0900527D87 /* FlagNames.swift */,
 			);
 			path = Components;
@@ -247,6 +220,7 @@
 			children = (
 				BCA190312C10A3FA00546D07 /* WBApp */,
 				BCA190302C10A3FA00546D07 /* Products */,
+				BCF0F8052C494EDA0064704F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,6 +235,7 @@
 		BCA190312C10A3FA00546D07 /* WBApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCF0F8042C469ED80064704F /* UISystem */,
 				BCD6E6E62C4559BD00D959ED /* PlayGroundHomeWork */,
 				BCA190402C10A40400546D07 /* Core */,
 				BC74E9FB2C4002ED0033C842 /* Router */,
@@ -357,28 +332,8 @@
 			isa = PBXGroup;
 			children = (
 				BC6B00DF2C36DE860087FDEA /* Constants.swift */,
-				BCDFDA282C11E28800886144 /* Controls */,
 			);
 			path = UIComponents;
-			sourceTree = "<group>";
-		};
-		BCDFDA282C11E28800886144 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				BC6B010F2C38270A0087FDEA /* SearchBar */,
-				BC6B01062C3826C60087FDEA /* NavigationBar */,
-				BCDFDA292C11E29900886144 /* ButtonsStyles */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		BCDFDA292C11E29900886144 /* ButtonsStyles */ = {
-			isa = PBXGroup;
-			children = (
-				BC6B010B2C3826E90087FDEA /* SocialMediaButton.swift */,
-				BCE00CCD2C3D2EC400527D87 /* CustomButtonStyle.swift */,
-			);
-			path = ButtonsStyles;
 			sourceTree = "<group>";
 		};
 		BCE00CBB2C384FAA00527D87 /* VereficationScreen */ = {
@@ -393,11 +348,18 @@
 		BCE00CC22C3C184600527D87 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BCE00CC72C3C1EA800527D87 /* PopOverCountryPicker.swift */,
+				BC2628A22C4AA6BA004886EF /* PopOverCountryPicker.swift */,
+				BC2628A02C4AA65B004886EF /* PhoneNumberField.swift */,
 				BCE00CC32C3C187000527D87 /* VereficationTitleView.swift */,
-				BCE00CC52C3C1A6D00527D87 /* PhoneNumberField.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BCF0F8052C494EDA0064704F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +378,9 @@
 			dependencies = (
 			);
 			name = WBApp;
+			packageProductDependencies = (
+				BCF0F8062C494EDA0064704F /* UISystem */,
+			);
 			productName = WBApp;
 			productReference = BCA1902F2C10A3FA00546D07 /* WBApp.app */;
 			productType = "com.apple.product-type.application";
@@ -472,7 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE00CCE2C3D2EC400527D87 /* CustomButtonStyle.swift in Sources */,
 				BCE00CC12C386F0900527D87 /* FlagNames.swift in Sources */,
 				BCA190352C10A3FA00546D07 /* OnboardingView.swift in Sources */,
 				BC6B01022C38257C0087FDEA /* FadeModifier.swift in Sources */,
@@ -480,33 +444,28 @@
 				BC6B00EF2C3824DE0087FDEA /* ProfileAccountComponents.swift in Sources */,
 				BC6B00F32C3825020087FDEA /* TabBarView.swift in Sources */,
 				BC74EA022C415C160033C842 /* RetrySendCodeTimer.swift in Sources */,
-				BC6B01112C38271A0087FDEA /* SearchBar.swift in Sources */,
-				BC6B010A2C3826D90087FDEA /* HeaderTitleView.swift in Sources */,
 				BCA1904D2C10F4EB00546D07 /* LogoAndButtonsView.swift in Sources */,
 				BCA190452C10AE4000546D07 /* LogoTextView.swift in Sources */,
 				BC74EA092C45253D0033C842 /* CustomOperations.swift in Sources */,
 				BCA190522C11001B00546D07 /* ModalView.swift in Sources */,
 				BCE00CBF2C385CB300527D87 /* Region.swift in Sources */,
 				BC6B01152C3832A40087FDEA /* LocalizedStrings+.swift in Sources */,
-				BC6B010D2C3826E90087FDEA /* SocialMediaButton.swift in Sources */,
 				BC74E9F82C3EC7A80033C842 /* smsCodeComponentView.swift in Sources */,
 				BC74E9FA2C3EC8670033C842 /* smsCodeTitlesView.swift in Sources */,
 				BC74E9FD2C40031B0033C842 /* Router.swift in Sources */,
 				BC6B00FD2C38255F0087FDEA /* AvatarStub.swift in Sources */,
 				BC6B00E02C36DE860087FDEA /* Constants.swift in Sources */,
+				BC2628A32C4AA6BA004886EF /* PopOverCountryPicker.swift in Sources */,
 				BC74E9F52C3EC6CE0033C842 /* InputSMSCodeScreen.swift in Sources */,
 				BC6B00EE2C3824DE0087FDEA /* ProfileAccauntView.swift in Sources */,
 				BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */,
-				BC6B01092C3826D90087FDEA /* BackButtonNavBar.swift in Sources */,
 				BC6B00FE2C38255F0087FDEA /* ContactsNavBarView.swift in Sources */,
-				BCDFDA2F2C11E94B00886144 /* TextFontStyles.swift in Sources */,
 				BC6B01052C3825A40087FDEA /* UserContact.swift in Sources */,
 				BCE00CC42C3C187000527D87 /* VereficationTitleView.swift in Sources */,
+				BC2628A12C4AA65B004886EF /* PhoneNumberField.swift in Sources */,
 				BC6B00F02C3824DE0087FDEA /* ProfileAvatar.swift in Sources */,
 				BC6B00FF2C38255F0087FDEA /* ContactsView.swift in Sources */,
 				BC74EA0B2C4536710033C842 /* SMSCodeGenerator.swift in Sources */,
-				BCE00CC62C3C1A6D00527D87 /* PhoneNumberField.swift in Sources */,
-				BCE00CC82C3C1EA800527D87 /* PopOverCountryPicker.swift in Sources */,
 				BCE00CCA2C3C74B100527D87 /* UIApplication+EditingMode.swift in Sources */,
 				BC6B00FC2C38255F0087FDEA /* ContactInfoView.swift in Sources */,
 				BCE00CBD2C384FD700527D87 /* VereficationView.swift in Sources */,
@@ -721,6 +680,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCF0F8062C494EDA0064704F /* UISystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UISystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCA190272C10A3FA00546D07 /* Project object */;
 }

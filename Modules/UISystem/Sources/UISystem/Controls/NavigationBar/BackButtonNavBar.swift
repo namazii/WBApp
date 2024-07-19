@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct BackButtonNavBar: View {
+public struct BackButtonNavBar: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
-    var body: some View {
+    public init() {}
+    
+    public var body: some View {
         Button(action: {
             self.presentationMode.wrappedValue.dismiss()
         }) {

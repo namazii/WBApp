@@ -7,10 +7,14 @@
 
 import SwiftUI
 
-struct SocialMediaButton: View {
+public struct SocialMediaButton: View {
     let imageName: String
+
+    public init(imageName: String) {
+        self.imageName = imageName
+    }
     
-    var body: some View {
+    public var body: some View {
         Button(action: socialButtonTapped) {
             Image(imageName)
         }

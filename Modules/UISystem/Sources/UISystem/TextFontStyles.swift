@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Typography {
+public enum Typography {
     case heading1
     case heading2
     
@@ -22,10 +22,10 @@ enum Typography {
     case metaData3
 }
 
-struct TextFontStyles: ViewModifier {
+public struct TextFontStyles: ViewModifier {
     var typography: Typography
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         switch typography {
         case .heading1:
             return content
@@ -61,7 +61,7 @@ struct TextFontStyles: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func textStyle(with typography: Typography ) -> some View {
         modifier(TextFontStyles(typography: typography))
     }
