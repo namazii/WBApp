@@ -18,22 +18,16 @@ struct ContantCellView: View {
     
     //MARK: - Properties
     var contact: UserContact
+    @StateObject private var imageLoader = ImageLoader()
     
     //MARK: - LifeCycle
     var body: some View {
         HStack(alignment: .top, spacing: Constants.hstackSpace) {
-            if let imageName = contact.avatar, let url = URL(string: imageName) {
-                AsyncImage(url: url) { phase in
-                    switch phase {
-                    case .empty:
-                        createImageWithBorder(image: AvatarStub(firstName: contact.firstName, lastName: contact.lastName))
-                    case .success(let image):
-                        createImageWithBorder(image: image.resizable().aspectRatio(contentMode: .fill))
-                    case .failure:
-                        createImageWithBorder(image: AvatarStub(firstName: contact.firstName, lastName: contact.lastName))
-                    @unknown default:
-                        EmptyView()
-                    }
+            if let _ = contact.avatar {
+                if let image = imageLoader.image {
+                    createImageWithBorder(image: Image(uiImage: image).resizable().aspectRatio(contentMode: .fill))
+                } else {
+                    createImageWithBorder(image: AvatarStub(firstName: contact.firstName, lastName: contact.lastName))
                 }
             } else {
                 createImageWithBorder(image: AvatarStub(firstName: contact.firstName, lastName: contact.lastName))
@@ -43,6 +37,9 @@ struct ContantCellView: View {
         .padding(.top, Constants.topPadding)
         .padding(.bottom, Constants.bottomPadding)
         .background(Color(.customBackGround))
+        .onAppear {
+            imageLoader.loadImage(from: contact.avatar)
+        }
     }
 }
 
@@ -88,6 +85,9 @@ extension ContantCellView {
         }
     }
 }
+
+
+
 
 #Preview {
     ContantCellView(contact: UserContact(

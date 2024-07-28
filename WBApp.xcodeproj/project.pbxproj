@@ -13,6 +13,8 @@
 		BC337C072C1DD8F500BD0EAC /* BackButtonNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC337C062C1DD8F500BD0EAC /* BackButtonNavBar.swift */; };
 		BC3B27C12C17278000325440 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B27C02C17277F00325440 /* ContactCellView.swift */; };
 		BC3B27C32C175DBF00325440 /* AvatarStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B27C22C175DBF00325440 /* AvatarStub.swift */; };
+		BC4ACC742C556770002CDE1D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4ACC732C556770002CDE1D /* APIConstants.swift */; };
+		BC4ACC762C5569AE002CDE1D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4ACC752C5569AE002CDE1D /* ImageLoader.swift */; };
 		BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190322C10A3FA00546D07 /* WBAppApp.swift */; };
 		BCA190352C10A3FA00546D07 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA190342C10A3FA00546D07 /* ContactsView.swift */; };
 		BCA190372C10A3FB00546D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA190362C10A3FB00546D07 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		BC337C062C1DD8F500BD0EAC /* BackButtonNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonNavBar.swift; sourceTree = "<group>"; };
 		BC3B27C02C17277F00325440 /* ContactCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
 		BC3B27C22C175DBF00325440 /* AvatarStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarStub.swift; sourceTree = "<group>"; };
+		BC4ACC732C556770002CDE1D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		BC4ACC752C5569AE002CDE1D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		BCA1902F2C10A3FA00546D07 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA190322C10A3FA00546D07 /* WBAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppApp.swift; sourceTree = "<group>"; };
 		BCA190342C10A3FA00546D07 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
@@ -85,6 +89,23 @@
 			path = NavigationBar;
 			sourceTree = "<group>";
 		};
+		BC4ACC712C556742002CDE1D /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BC4ACC722C556753002CDE1D /* APIConstants */,
+				BC4ACC752C5569AE002CDE1D /* ImageLoader.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BC4ACC722C556753002CDE1D /* APIConstants */ = {
+			isa = PBXGroup;
+			children = (
+				BC4ACC732C556770002CDE1D /* APIConstants.swift */,
+			);
+			path = APIConstants;
+			sourceTree = "<group>";
+		};
 		BCA190262C10A3FA00546D07 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +127,7 @@
 			children = (
 				BCA190402C10A40400546D07 /* Core */,
 				BCA190412C10A41200546D07 /* Screens */,
+				BC4ACC712C556742002CDE1D /* NetworkLayer */,
 				BCAB3D6E2C22088D0003A2C2 /* FadeTransition */,
 				BCAB3D612C218D3A0003A2C2 /* Models */,
 				BCA190492C10C9D900546D07 /* Resources */,
@@ -322,8 +344,10 @@
 				BCAB3D672C219CBE0003A2C2 /* ProfileAccauntView.swift in Sources */,
 				BCA190352C10A3FA00546D07 /* ContactsView.swift in Sources */,
 				BCF153B02C1A02F2009D4069 /* Colors.swift in Sources */,
+				BC4ACC742C556770002CDE1D /* APIConstants.swift in Sources */,
 				BCDFDA2B2C11E2D000886144 /* CustomFillButtonStyle.swift in Sources */,
 				BCF153AC2C19F993009D4069 /* SearchBar.swift in Sources */,
+				BC4ACC762C5569AE002CDE1D /* ImageLoader.swift in Sources */,
 				BCAB3D5E2C21822A0003A2C2 /* ProfileAccountComponents.swift in Sources */,
 				BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */,
 				BCDFDA2F2C11E94B00886144 /* TextFontStyles.swift in Sources */,
