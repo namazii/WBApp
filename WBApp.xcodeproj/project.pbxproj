@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		BC2628A12C4AA65B004886EF /* PhoneNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2628A02C4AA65B004886EF /* PhoneNumberField.swift */; };
 		BC2628A32C4AA6BA004886EF /* PopOverCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2628A22C4AA6BA004886EF /* PopOverCountryPicker.swift */; };
+		BC3B95472C57F95800133A2C /* RickAndMortyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = BC3B95462C57F95800133A2C /* RickAndMortyAPI */; };
+		BC3B954A2C58DC2500133A2C /* RickAndMortyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B95492C58DC2500133A2C /* RickAndMortyScreen.swift */; };
+		BC3B954E2C5A74AB00133A2C /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B954D2C5A74AB00133A2C /* CharacterCell.swift */; };
+		BC3B95502C5A74DC00133A2C /* CharacterRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B954F2C5A74DC00133A2C /* CharacterRM.swift */; };
 		BC6B00E02C36DE860087FDEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B00DF2C36DE860087FDEA /* Constants.swift */; };
 		BC6B00E92C36E1AB0087FDEA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BC6B00E82C36E1AA0087FDEA /* Localizable.xcstrings */; };
 		BC6B00EE2C3824DE0087FDEA /* ProfileAccauntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B00EB2C3824DE0087FDEA /* ProfileAccauntView.swift */; };
@@ -48,6 +52,11 @@
 /* Begin PBXFileReference section */
 		BC2628A02C4AA65B004886EF /* PhoneNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberField.swift; sourceTree = "<group>"; };
 		BC2628A22C4AA6BA004886EF /* PopOverCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCountryPicker.swift; sourceTree = "<group>"; };
+		BC3B95432C57F52A00133A2C /* generateRickAndMortyapi.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateRickAndMortyapi.sh; sourceTree = "<group>"; };
+		BC3B95452C57F93700133A2C /* RickAndMortyAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RickAndMortyAPI; path = Modules/RickAndMortyAPI; sourceTree = "<group>"; };
+		BC3B95492C58DC2500133A2C /* RickAndMortyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyScreen.swift; sourceTree = "<group>"; };
+		BC3B954D2C5A74AB00133A2C /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		BC3B954F2C5A74DC00133A2C /* CharacterRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRM.swift; sourceTree = "<group>"; };
 		BC6B00DF2C36DE860087FDEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC6B00E82C36E1AA0087FDEA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		BC6B00EB2C3824DE0087FDEA /* ProfileAccauntView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAccauntView.swift; sourceTree = "<group>"; };
@@ -93,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3B95472C57F95800133A2C /* RickAndMortyAPI in Frameworks */,
 				BCF0F8072C494EDA0064704F /* UISystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3B95482C58DBF400133A2C /* RickAndMortyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC3B95492C58DC2500133A2C /* RickAndMortyScreen.swift */,
+				BC3B954D2C5A74AB00133A2C /* CharacterCell.swift */,
+			);
+			path = RickAndMortyScreen;
+			sourceTree = "<group>";
+		};
 		BC6B00EA2C3824BC0087FDEA /* ProfileAccaunt */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +170,7 @@
 			children = (
 				BC6B01042C3825A40087FDEA /* UserContact.swift */,
 				BCE00CBE2C385CB300527D87 /* Region.swift */,
+				BC3B954F2C5A74DC00133A2C /* CharacterRM.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -218,6 +238,8 @@
 		BCA190262C10A3FA00546D07 = {
 			isa = PBXGroup;
 			children = (
+				BC3B95452C57F93700133A2C /* RickAndMortyAPI */,
+				BC3B95432C57F52A00133A2C /* generateRickAndMortyapi.sh */,
 				BCA190312C10A3FA00546D07 /* WBApp */,
 				BCA190302C10A3FA00546D07 /* Products */,
 				BCF0F8052C494EDA0064704F /* Frameworks */,
@@ -270,6 +292,7 @@
 		BCA190412C10A41200546D07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BC3B95482C58DBF400133A2C /* RickAndMortyScreen */,
 				BCA190422C10AA5700546D07 /* OnboardingScreen */,
 				BCE00CBB2C384FAA00527D87 /* VereficationScreen */,
 				BC74E9F32C3EC68C0033C842 /* InputSMSCodeScreen */,
@@ -380,6 +403,7 @@
 			name = WBApp;
 			packageProductDependencies = (
 				BCF0F8062C494EDA0064704F /* UISystem */,
+				BC3B95462C57F95800133A2C /* RickAndMortyAPI */,
 			);
 			productName = WBApp;
 			productReference = BCA1902F2C10A3FA00546D07 /* WBApp.app */;
@@ -437,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3B95502C5A74DC00133A2C /* CharacterRM.swift in Sources */,
 				BCE00CC12C386F0900527D87 /* FlagNames.swift in Sources */,
 				BCA190352C10A3FA00546D07 /* OnboardingView.swift in Sources */,
 				BC6B01022C38257C0087FDEA /* FadeModifier.swift in Sources */,
@@ -457,6 +482,7 @@
 				BC6B00E02C36DE860087FDEA /* Constants.swift in Sources */,
 				BC2628A32C4AA6BA004886EF /* PopOverCountryPicker.swift in Sources */,
 				BC74E9F52C3EC6CE0033C842 /* InputSMSCodeScreen.swift in Sources */,
+				BC3B954A2C58DC2500133A2C /* RickAndMortyScreen.swift in Sources */,
 				BC6B00EE2C3824DE0087FDEA /* ProfileAccauntView.swift in Sources */,
 				BCA190332C10A3FA00546D07 /* WBAppApp.swift in Sources */,
 				BC6B00FE2C38255F0087FDEA /* ContactsNavBarView.swift in Sources */,
@@ -465,6 +491,7 @@
 				BC2628A12C4AA65B004886EF /* PhoneNumberField.swift in Sources */,
 				BC6B00F02C3824DE0087FDEA /* ProfileAvatar.swift in Sources */,
 				BC6B00FF2C38255F0087FDEA /* ContactsView.swift in Sources */,
+				BC3B954E2C5A74AB00133A2C /* CharacterCell.swift in Sources */,
 				BC74EA0B2C4536710033C842 /* SMSCodeGenerator.swift in Sources */,
 				BCE00CCA2C3C74B100527D87 /* UIApplication+EditingMode.swift in Sources */,
 				BC6B00FC2C38255F0087FDEA /* ContactInfoView.swift in Sources */,
@@ -682,6 +709,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BC3B95462C57F95800133A2C /* RickAndMortyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RickAndMortyAPI;
+		};
 		BCF0F8062C494EDA0064704F /* UISystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UISystem;

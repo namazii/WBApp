@@ -3,4 +3,86 @@
    uuid = "ADD7CCC0-1518-4F2C-ABE4-85A7E600C9B9"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6C3F27D-4750-49B4-984E-27E2C26D5A2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RickAndMortyAPI/Sources/RickAndMortyAPI/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "373"
+            endingLineNumber = "373"
+            landmarkName = "urlSession(_:task:didReceive:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4B9C6F7-88E4-4924-900F-F5840D7C060D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RickAndMortyAPI/Sources/RickAndMortyAPI/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4B9C6F7-88E4-4924-900F-F5840D7C060D - 80a244663bb0c34c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMortyAPI.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;RickAndMortyAPI.Response&lt;&#x3c4;_0_0&gt;, RickAndMortyAPI.ErrorResponse&gt;) -&gt; ()) -&gt; RickAndMortyAPI.RequestTask"
+                  moduleName = "WBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/namazi/Desktop/wbApp17/Modules/RickAndMortyAPI/Sources/RickAndMortyAPI/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "4584">
+               </Location>
+               <Location
+                  uuid = "F4B9C6F7-88E4-4924-900F-F5840D7C060D - c235fc9e237febaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Sendable () -&gt; () in RickAndMortyAPI.URLSessionRequestBuilder.execute(__C.OS_dispatch_queue, (Swift.Result&lt;RickAndMortyAPI.Response&lt;&#x3c4;_0_0&gt;, RickAndMortyAPI.ErrorResponse&gt;) -&gt; ()) -&gt; RickAndMortyAPI.RequestTask"
+                  moduleName = "WBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/namazi/Desktop/wbApp17/Modules/RickAndMortyAPI/Sources/RickAndMortyAPI/URLSessionImplementations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87AA26C3-2CDB-49E5-AD20-D1C8EEBCC4EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RickAndMortyAPI/Sources/RickAndMortyAPI/URLSessionImplementations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

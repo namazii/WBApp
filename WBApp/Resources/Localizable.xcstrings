@@ -5,7 +5,6 @@
 
     },
     "000 000-00-00" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
