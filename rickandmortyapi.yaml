@@ -1,0 +1,155 @@
+openapi: 3.0.3
+info:
+  title: Rick and Morty API
+  description: rickandmortyapi.com
+  version: 1.0.0
+servers:
+  - url: https://rickandmortyapi.com/api
+tags:
+  - name: character
+    description: Info of character
+paths:
+  /character:
+    get:
+      tags:
+        - character
+      summary: Character List
+      operationId: characterGet
+      parameters:
+        - name: name
+          in: query
+          description: Filter by the given name
+          required: false
+          schema:
+            type: string
+        - name: status
+          in: query
+          description: Filter by the given status
+          required: false
+          schema:
+            type: string
+        - name: species
+          in: query
+          description: Filter by the given species
+          required: false
+          schema:
+            type: string
+        - name: type
+          in: query
+          description: Filter by the given type
+          required: false
+          schema:
+            type: string
+        - name: gender
+          in: query
+          description: Filter by the given gender
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CharacterList'
+        'default':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+components:
+  schemas:
+    CharacterList:
+      required:
+        - info
+        - results
+      properties:
+        info:
+          required:
+            - count
+            - pages
+            - next
+            - prev
+          properties:
+            count:
+              type: number
+            pages:
+              type: number
+            next:
+              type: string
+            prev:
+              type: string
+          type: object
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Character'
+      type: object
+    Character:
+      type: object
+      properties:
+        id:
+          type: number
+        name:
+          type: string
+        status:
+          type: string
+        species:
+          type: string
+        type:
+          type: string
+        gender:
+          type: string
+        origin:
+          required:
+            - name
+            - url
+          properties:
+            name:
+              type: string
+            url:
+              type: string
+          type: object
+        location:
+          required:
+            - name
+            - url
+          properties:
+            name:
+              type: string
+            url:
+              type: string
+          type: object
+        image:
+          type: string
+        episode:
+          type: array
+          items:
+            type: string
+        url:
+          type: string
+        created:
+          type: string
+    ErrorModel:
+      required:
+        - code
+        - message
+      type: object
+      properties:
+        message:
+          type: string
+        code:
+          type: integer
+          minimum: 100
+          maximum: 600
+      x-swift-hashable: true
+    Source:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+      x-swift-hashable: true

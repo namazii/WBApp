@@ -9,17 +9,18 @@ import SwiftUI
 
 @main
 struct WBAppApp: App {
-    @ObservedObject var router = Router()
+//    @ObservedObject var router = Router()
     
     var body: some Scene {
         WindowGroup {
-            NavigationStack(path: $router.navPath) {
-                router.getDestination(.onboardingView)
-                    .navigationDestination(for: Router.Destination.self) { destination in
-                        router.getDestination(destination)
-                    }
-            }
-            .environmentObject(router)
+//            NavigationStack(path: $router.navPath) {
+//                router.getDestination(.onboardingView)
+//                    .navigationDestination(for: Router.Destination.self) { destination in
+//                        router.getDestination(destination)
+//                    }
+//            }
+//            .environmentObject(router)
+            RickAndMortyScreen()
         }
     }
 }
