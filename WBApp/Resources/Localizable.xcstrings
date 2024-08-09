@@ -4,6 +4,9 @@
     "" : {
 
     },
+    "%lld" : {
+
+    },
     "000 000-00-00" : {
       "localizations" : {
         "en" : {
@@ -16,6 +19,27 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "000 000-00-00"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        }
+      }
+    },
+    "Chats" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чаты"
           }
         }
       }
@@ -57,7 +81,27 @@
 
     },
     "Loading..." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузка..."
+          }
+        }
+      }
+    },
+    "Message" : {
 
+    },
+    "New Message" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новый чат"
+          }
+        }
+      }
     },
     "onboardTitle" : {
       "extractionState" : "manual",
@@ -91,6 +135,9 @@
           }
         }
       }
+    },
+    "Replying to:" : {
+
     },
     "search" : {
       "extractionState" : "manual",
@@ -143,6 +190,16 @@
         }
       }
     },
+    "Waiting for network" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидание подключения"
+          }
+        }
+      }
+    },
     "Введите код" : {
       "localizations" : {
         "en" : {
@@ -174,6 +231,9 @@
           }
         }
       }
+    },
+    "Вы" : {
+
     },
     "Другие" : {
       "localizations" : {
@@ -230,6 +290,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "и"
+          }
+        }
+      }
+    },
+    "Имя(обязательно)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя(обязательно)"
           }
         }
       }
@@ -315,6 +385,16 @@
         }
       }
     },
+    "Сохранить" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        }
+      }
+    },
     "Условиями Использования" : {
       "localizations" : {
         "en" : {
@@ -327,6 +407,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Условиями Использования"
+          }
+        }
+      }
+    },
+    "Фамилия(опционально)" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фамилия(опционально)"
           }
         }
       }
